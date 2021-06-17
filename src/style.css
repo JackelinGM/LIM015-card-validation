@@ -5,7 +5,7 @@
 }
 
 body {
-	background: #ddeefc;
+	background:#FFED99;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -24,7 +24,7 @@ body {
 	width: 100%;
 	max-width: 550px;
 	position: relative;
-	color: #fff;
+	color: white;
 	transition: .3s ease all;
 	transform: rotateY(0deg);
 	transform-style: preserve-3d;
@@ -50,8 +50,9 @@ body {
 
 .tarjeta .delantera {
 	width: 100%;
-	background:url(../img/big-tarjeta/big-tarjeta01.PNG);
+	background:linear-gradient(to bottom,black,	#EABE3F);
 	background-size: cover;
+	
 }
 
 .delantera .logo-marca {
@@ -74,14 +75,14 @@ body {
 
 .delantera .grupo .label {
 	font-size: 16px;
-	color: #7d8994;
+	color: black;
 	margin-bottom: 5px;
 }
 
 .delantera .grupo .numero,
 .delantera .grupo .nombre,
 .delantera .grupo .expiracion {
-	color: #fff;
+	color: white;
 	font-size: 22px;
 	text-transform: uppercase;
 }
@@ -94,7 +95,7 @@ body {
 
 /* ---------- Tarjeta Trasera ----------*/
 .trasera {
-	background:url(../img/big-tarjeta/big-tarjeta01.PNG);
+	background:linear-gradient(to bottom,black,	#EABE3F);
 	background-size: cover;
 	position: absolute;
 	top: 0;
@@ -166,7 +167,7 @@ body {
 	height: 50px;
 	font-size: 20px;
 	line-height: 20px;
-	background: purple;
+	background:#F9B208;
 	color: #fff;
 	position: relative;
 	top: -25px;
@@ -191,7 +192,7 @@ body {
 
 
 .formulario-tarjeta {
-    background:#e4bad4;
+    background:#FFCC29;
     width: 100%;
     max-width: 700px;
     padding: 150px 30px 30px 30px;
@@ -208,7 +209,7 @@ body {
 
 .formulario-tarjeta label {
     display: block;
-    color:#7d8994;
+    color:black;
     margin-bottom: 5px;
     font-size: 16px;
 }
@@ -226,7 +227,7 @@ body {
 }
 .formulario-tarjeta  input:hover
 .formulario-tarjeta  select:hover {
-    border: 2px solid #938ded;
+    border: 2px solid #4AA96C;
 
 }
 
@@ -258,7 +259,13 @@ body {
     border:  none;
     padding: 10px;
     font-size: 22px;
-    color: violet;
-    background: turquoise;
-    box-shadow: 2px 2px 10px thistle;
+    color: black;
+    background: #EABE3F;
+    box-shadow: 2px 2px 10px yellow;
+}
+
+footer  {
+position:center;
+text-align: center;
+color:black;
 }

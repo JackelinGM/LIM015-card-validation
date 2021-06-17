@@ -2,20 +2,20 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <title>Card validation</title>
-  <link href="https:/fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+	<meta charset="utf-8">
+	<title>Card validation</title>
+	<link href="https:/fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <div class="contenedor">
+	<div class="contenedor">
 
-		
+
 		<section class="tarjeta" id="tarjeta">
 			<div class="delantera">
 				<div class="logo-marca" id="logo-marca">
-          <img src="img/logos/mastercard.png.PNG" alt="">	
+					<img src="img/logos/mastercard.png.PNG" alt="">
 				</div>
 				<img src="img/chip-tarjeta.png/chip.PNG" class="chip" alt="">
 				<div class="datos">
@@ -42,42 +42,47 @@
 				<div class="datos">
 					<div class="grupo" id="firma">
 						<p class="label">Firma</p>
-						<div class="firma"><p></p></div>
+						<div class="firma">
+							<p></p>
+						</div>
 					</div>
 					<div class="grupo" id="ccv">
 						<p class="label">CCV</p>
 						<p class="ccv"></p>
 					</div>
 				</div>
-				<p class="leyenda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus exercitationem, voluptates illo.</p>
+				<p class="leyenda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus exercitationem,
+					voluptates illo.</p>
 				<a href="#" class="link-banco">www.Gutmont.com</a>
 			</div>
 		</section>
 
-		
+
 		<div class="contenedor-btn">
 			<button class="btn-abrir-formulario" id="btn-abrir-formulario">
 				<i class="fas fa-plus"></i>
 			</button>
 		</div>
 
-    
-    <form action="" id="formulario-tarjeta" class="formulario-tarjeta">
-      <div class="grupo">
-        <label for="input-Numero">Numero Tarjeta</label>
-        <input type="number" id="inputNumero" maxlength="19" autocomplete="off">
-      </div>
-      
-       <button type="submit" class="btn-enviar" id="enviar">Enviar</button>
-    </form>
 
-    </div>
-  <header></header>
-  <main>
-  </main>
+		<form action="" id="formulario-tarjeta" class="formulario-tarjeta">
+			<div class="grupo">
+				<label for="input-Numero">Numero Tarjeta</label>
+				<input type="number" id="inputNumero" maxlength="19" autocomplete="off">
+			</div>
 
-  <footer></footer>
-  <script src="index.js" type="module"></script>
+			<button type="submit" class="btn-enviar" id="enviar">Enviar</button>
+		</form>
+
+	</div>
+
+
+
+
+	<footer>
+		<p>&#169 Mel Gutmont</p>
+	</footer>
+	<script src="index.js" type="module"></script>
 </body>
 
 </html>
