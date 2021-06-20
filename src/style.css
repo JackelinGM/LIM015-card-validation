@@ -4,27 +4,28 @@
 	box-sizing: border-box;
 }
 
-body {
-	background:#FFED99;
-	font-family: 'Lato', sans-serif;
-}
 
+body {
+	background: #FAD586;
+    font-family: 'Lato', sans-serifs;
+}
 .contenedor {
 	width: 90%;
 	max-width: 1000px;
-	padding: 40px 20px;
+	padding: 160px 50px;
 	margin: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
+
 /* ---------- Estilos Generales de las Tarjetas ----------*/
 .tarjeta {
 	width: 100%;
 	max-width: 550px;
 	position: relative;
-	color: white;
+	color: #FAD586;
 	transition: .3s ease all;
 	transform: rotateY(0deg);
 	transform-style: preserve-3d;
@@ -167,19 +168,18 @@ body {
 	height: 50px;
 	font-size: 20px;
 	line-height: 20px;
-	background:#F9B208;
-	color: #fff;
+	background: #FAD586;
+	color: #FAD586;
 	position: relative;
 	top: -25px;
-	z-index: 3;
+    z-index: 3;
 	border-radius: 100%;
-	box-shadow: -5px 4px 8px rgba(24,56,182,0.4);
+	box-shadow:-5px 4px 8px rgba(24,56,182,0.4);
 	padding: 5px;
 	transition: all .2s ease;
 	border: none;
-	cursor: pointer;
+	cursor: pointer; 
 }
-
 .contenedor-btn .btn-abrir-formulario:hover {
     background:black;
 }
@@ -268,4 +268,35 @@ footer  {
 position:center;
 text-align: center;
 color:black;
+
 }
+
+header {
+	width: 100%;
+	height: 300px;
+	background: #e88300;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	overflow: hidden;
+	transition: all 0.5s ease;
+	text-transform:capitalize;
+}
+header h1{
+	font-size: 42px;
+	color: black;
+	line-height: 230px;
+	font-weight: 300;
+	transition: all 0.3s ease;
+}
+
+header h1 i{
+	font-weight: bold;
+	text-transform:uppercase;
+
+}
+
+
+
+	
+
