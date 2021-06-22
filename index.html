@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Card validation</title>
+	<link href="https:/fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<header> 
+		<h1>Bienvenidos a Gutmont validation </h1>
+	</header>
+	
+			
+	<div class="contenedor">
+
+		<section class="tarjeta" id="tarjeta">
+			<div class="delantera">
+				<div class="logo-marca" id="logo-marca">
+					<img src="img/logos/mastercard.png.PNG" alt="">
+				</div>
+				<img src="img/chip-tarjeta.png/chip.PNG" class="chip" alt="">
+				<div class="datos">
+					<div class="grupo" id="numero">
+						<p class="label">Número Tarjeta</p>
+						<p class="numero" id="creditCardNumber">#### #### #### ####</p>
+					</div>
+					<div class="flexbox">
+						<div class="grupo" id="nombre">
+							<p class="label">Nombre Tarjeta</p>
+							<p class="nombre">Mel Smith</p>
+						</div>
+                         
+						<div class="grupo" id="expiracion">
+							<p class="label">Expiracion</p>
+							<p class="expiracion"><span class="mes">MM</span> / <span class="year">AA</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+              
+			<div class="trasera">
+				<div class="barra-magnetica"></div>
+				<div class="datos">
+					<div class="grupo" id="firma">
+						<p class="label">Firma</p>
+						<div class="firma">
+							<p></p>
+						</div>
+					</div>
+					<div class="grupo" id="ccv">
+						<p class="label">CCV</p>
+						<p class="ccv"></p>
+					</div>
+				</div>
+				<p class="leyenda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus exercitationem,
+					voluptates illo.</p>
+				<a href="#" class="link-banco">www.Gutmont.com</a>
+			</div>
+		</section>
+
+
+		<div class="contenedor-btn">
+			<button class="btn-abrir-formulario" id="btn-abrir-formulario">
+				<i class="fas fa-plus"></i>
+			</button>
+		</div>
+
+		<form  id="formulario-tarjeta" class="formulario-tarjeta">
+			<div class="grupo">
+				<label for="input-Numero">Numero Tarjeta</label>
+				<input type="number" id="inputNumero" maxlength="19" autocomplete="off">
+			</div>
+
+			<button type="submit" class="btn-enviar" id="enviar">Enviar</button>
+		</form>
+
+	</div>
+
+
+
+
+	<footer>
+		<p>&#169 Mel Gutmont</p>
+	</footer>
+	<script src="index.js" type="module"></script>
+</body>
+
+</html>
