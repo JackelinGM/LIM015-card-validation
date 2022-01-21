@@ -14,9 +14,6 @@ btnAbrirFormulario.addEventListener('click', () => {
     formulario.classList.toggle('active');
 });
 
-
-
-
 function capturaDatos(e) {
     e.preventDefault()
     let number = document.getElementById("inputNumero").value;
