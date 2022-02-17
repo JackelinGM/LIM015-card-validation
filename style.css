@@ -3,12 +3,10 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-
-
 body {
-	background: #FAD586;
-    font-family: 'Lato', sans-serifs;
-}
+	background:linear-gradient(to bottom,skyblue,#22577A);
+    font-family: sans-serif
+} 
 .contenedor {
 	width: 90%;
 	max-width: 1000px;
@@ -18,7 +16,6 @@ body {
 	flex-direction: column;
 	align-items: center;
 }
-
 
 /* ---------- Estilos Generales de las Tarjetas ----------*/
 .tarjeta {
@@ -33,9 +30,9 @@ body {
 	z-index: 2;
 }
 
-.tarjeta.active{
+/* .tarjeta.active{
 	transform: rotateY(180deg);
-}
+} */
 
 .tarjeta > div {
 	padding: 30px;
@@ -51,7 +48,7 @@ body {
 
 .tarjeta .delantera {
 	width: 100%;
-	background:linear-gradient(to bottom,black,	#EABE3F);
+	background:linear-gradient(to bottom,black,#383E56);
 	background-size: cover;
 	
 }
@@ -94,82 +91,14 @@ body {
 	margin-top: 20px;
 }
 
-/* ---------- Tarjeta Trasera ----------*/
-.trasera {
-	background:linear-gradient(to bottom,black,	#EABE3F);
-	background-size: cover;
-	position: absolute;
-	top: 0;
-	transform: rotateY(180deg);
-	backface-visibility: hidden;
-}
-
-.trasera .barra-magnetica {
-	height: 40px;
-	background: #000;
-	width: 100%;
-	position: absolute;
-	top: 30px;
-	left: 0;
-}
-
-.trasera .datos {
-	margin-top: 60px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.trasera .datos p {
-	margin-bottom: 5px;
-}
-
-.trasera .datos #firma {
-	width: 70%;
-}
-
-.trasera .datos #firma .firma {
-	height: 40px;
-	background: repeating-linear-gradient(skyblue 0, skyblue 5px, orange 5px, orange 10px);
-}
-
-.trasera .datos #firma .firma p {
-	line-height: 40px;
-	font-family: 'Liu Jian Mao Cao', cursive;
-	color: #000;
-	font-size: 30px;
-	padding: 0 10px;
-	text-transform: capitalize;
-}
-
-.trasera .datos #ccv {
-	width: 20%;
-}
-
-.trasera .datos #ccv .ccv {
-	background: #fff;
-	height: 40px;
-	color: #000;
-	padding: 10px;
-	text-align: center;
-}
-
-.trasera .leyenda {
-	font-size: 14px;
-	line-height: 24px;
-}
-
-.trasera .link-banco {
-	font-size: 14px;
-	color: #fff;
-}
 
 .contenedor-btn .btn-abrir-formulario {
 	width: 50px;
 	height: 50px;
 	font-size: 20px;
 	line-height: 20px;
-	background: #FAD586;
-	color: #FAD586;
+	background: #383E56;
+	color: grey;
 	position: relative;
 	top: -25px;
     z-index: 3;
@@ -186,13 +115,10 @@ body {
 .contenedor-btn .btn-abrir-formulario.active {
     transform: rotate(45deg);
     
-
 }
 
-
-
 .formulario-tarjeta {
-    background:#FFCC29;
+    background:#9FB8AD;
     width: 100%;
     max-width: 700px;
     padding: 150px 30px 30px 30px;
@@ -260,32 +186,31 @@ body {
     padding: 10px;
     font-size: 22px;
     color: black;
-    background: #EABE3F;
-    box-shadow: 2px 2px 10px yellow;
+    background: #FB743E;
+    box-shadow: 2px 2px 10px #FB743E;
 }
 
 footer  {
 position:center;
 text-align: center;
 color:black;
-
+margin: 12px;
 }
 
 header {
 	width: 100%;
 	height: 300px;
-	background: #e88300;
 	text-align: center;
 	position: fixed;
 	top: 0;
 	overflow: hidden;
 	transition: all 0.5s ease;
-	text-transform:capitalize;
+	
 }
-header h1{
+header h1 {
 	font-size: 42px;
 	color: black;
-	line-height: 230px;
+	line-height: 117px;
 	font-weight: 300;
 	transition: all 0.3s ease;
 }
@@ -295,8 +220,3 @@ header h1 i{
 	text-transform:uppercase;
 
 }
-
-
-
-	
-
